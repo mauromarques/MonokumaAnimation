@@ -13,6 +13,13 @@
 		6702A10D250932F7007A4D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702A10B250932F7007A4D06 /* Main.storyboard */; };
 		6702A10F250932FA007A4D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6702A10E250932FA007A4D06 /* Assets.xcassets */; };
 		6702A112250932FA007A4D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702A110250932FA007A4D06 /* LaunchScreen.storyboard */; };
+		6702A11F250934E0007A4D06 /* monokumaUpperHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 6702A11D250934E0007A4D06 /* monokumaUpperHead.png */; };
+		6702A120250934E0007A4D06 /* monokumaBottomHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 6702A11E250934E0007A4D06 /* monokumaBottomHead.png */; };
+		6702A12225093D9F007A4D06 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702A12125093D9F007A4D06 /* extensions.swift */; };
+		6702A124250954B5007A4D06 /* circleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6702A123250954B5007A4D06 /* circleAnimation.swift */; };
+		67534ED8250A0886005539B5 /* monokuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 67534ED7250A0886005539B5 /* monokuma.png */; };
+		67534EDA250A08F4005539B5 /* danganronpaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 67534ED9250A08F4005539B5 /* danganronpaLogo.png */; };
+		67534EDC250A0B41005539B5 /* tapSpeechBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 67534EDB250A0B40005539B5 /* tapSpeechBubble.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		6702A10E250932FA007A4D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6702A111250932FA007A4D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6702A113250932FA007A4D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6702A11D250934E0007A4D06 /* monokumaUpperHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monokumaUpperHead.png; sourceTree = "<group>"; };
+		6702A11E250934E0007A4D06 /* monokumaBottomHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monokumaBottomHead.png; sourceTree = "<group>"; };
+		6702A12125093D9F007A4D06 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		6702A123250954B5007A4D06 /* circleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleAnimation.swift; sourceTree = "<group>"; };
+		67534ED7250A0886005539B5 /* monokuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monokuma.png; sourceTree = "<group>"; };
+		67534ED9250A08F4005539B5 /* danganronpaLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = danganronpaLogo.png; sourceTree = "<group>"; };
+		67534EDB250A0B40005539B5 /* tapSpeechBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapSpeechBubble.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				6702A105250932F7007A4D06 /* AppDelegate.swift */,
 				6702A107250932F7007A4D06 /* SceneDelegate.swift */,
 				6702A109250932F7007A4D06 /* ViewController.swift */,
+				6702A123250954B5007A4D06 /* circleAnimation.swift */,
+				6702A12125093D9F007A4D06 /* extensions.swift */,
+				6702A11E250934E0007A4D06 /* monokumaBottomHead.png */,
+				6702A11D250934E0007A4D06 /* monokumaUpperHead.png */,
+				67534EDB250A0B40005539B5 /* tapSpeechBubble.png */,
+				67534ED7250A0886005539B5 /* monokuma.png */,
+				67534ED9250A08F4005539B5 /* danganronpaLogo.png */,
 				6702A10B250932F7007A4D06 /* Main.storyboard */,
 				6702A10E250932FA007A4D06 /* Assets.xcassets */,
 				6702A110250932FA007A4D06 /* LaunchScreen.storyboard */,
@@ -126,8 +147,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6702A112250932FA007A4D06 /* LaunchScreen.storyboard in Resources */,
+				6702A11F250934E0007A4D06 /* monokumaUpperHead.png in Resources */,
+				6702A120250934E0007A4D06 /* monokumaBottomHead.png in Resources */,
 				6702A10F250932FA007A4D06 /* Assets.xcassets in Resources */,
 				6702A10D250932F7007A4D06 /* Main.storyboard in Resources */,
+				67534EDA250A08F4005539B5 /* danganronpaLogo.png in Resources */,
+				67534ED8250A0886005539B5 /* monokuma.png in Resources */,
+				67534EDC250A0B41005539B5 /* tapSpeechBubble.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6702A10A250932F7007A4D06 /* ViewController.swift in Sources */,
+				6702A124250954B5007A4D06 /* circleAnimation.swift in Sources */,
 				6702A106250932F7007A4D06 /* AppDelegate.swift in Sources */,
 				6702A108250932F7007A4D06 /* SceneDelegate.swift in Sources */,
+				6702A12225093D9F007A4D06 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPYT3A73TA;
 				INFOPLIST_FILE = MonokumaAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPYT3A73TA;
 				INFOPLIST_FILE = MonokumaAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
